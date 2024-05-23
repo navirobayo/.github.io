@@ -17,8 +17,9 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100%;
             text-align: center;
+            min-height: 100vh;
         }
 
         h1 {
@@ -45,12 +46,26 @@
             color: white;
             border: none;
             cursor: pointer;
+            margin-bottom: 20px;
         }
 
         .legal {
             position: absolute;
             bottom: 10px;
             font-size: 15px;
+        }
+
+        .example-prompts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .example-prompts button {
+            background-color: #ddd;
+            color: #333;
         }
     </style>
 </head>
@@ -59,10 +74,15 @@
     <h1>Contabliss.ai</h1>
     <p>Resuelve dudas contables con ayuda de inteligencia artificial 🤖<br>Construye un negocio en Colombia 🇨🇴 Sin
         tanta vaina</p>
-    <input type="text" placeholder="Enter your text here...">
-    <button>Submit</button>
-    <p class="legal">Construido con 🖤 Desde Colombia 🇨🇴<br>© 2024
-        Contabliss.ai es una marca de Binocu S.A.S.<br>Todos los derechos reservados.</p>
+    <div class="example-prompts">
+        <button>Ejemplo 1</button>
+        <button>Ejemplo 2</button>
+        <button>Ejemplo 3</button>
+    </div>
+    <input type="text" placeholder="Ingresa tu texto aquí...">
+    <button>Enviar</button>
+    <p class="legal">Construido con 🖤 Desde Colombia 🇨🇴<br>IVAN ROBAYO - HUMANO DE LA TIERRA - CEO © 2024
+        Contabliss.ai es una marca de Binocu S.A.S. Todos los derechos reservados.</p>
 </body>
 
 </html>
