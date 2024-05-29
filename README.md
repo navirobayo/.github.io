@@ -1,3 +1,3 @@
 # contabliss.ai
 
-IA Contable. Construye un negocio en Colombia. Sin tanta vaina 🤖 🇨🇴
+IA Contable. Entiende y organiza tu negocio en Colombia. En segundos 🤖 🇨🇴
