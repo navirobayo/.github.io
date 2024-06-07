@@ -81,53 +81,24 @@
             max-height: 90%;
             overflow: auto;
         }
-
-        #chatbot-arrow {
-            position: fixed;
-            bottom: 80px;
-            /* Adjust this value to position the arrow above the chatbot bubble */
-            right: 20px;
-            /* Adjust this value to position the arrow to the left of the chatbot bubble */
-            width: 0;
-            height: 0;
-            border-left: 20px solid transparent;
-            border-right: 20px solid transparent;
-            border-bottom: 40px solid red;
-            /* Change 'red' to the color you want the arrow to be */
-            animation: blink 2s infinite;
-        }
-
-        @keyframes blink {
-            0% {
-                opacity: 1.0;
-            }
-
-            50% {
-                opacity: 0.0;
-            }
-
-            100% {
-                opacity: 1.0;
-            }
-        }
     </style>
 </head>
 
 <body>
     <h1>Contabliss.ai</h1>
-    <p>Tu asesor contable personalizado. 100% en línea. 🤖<br>Construye un negocio en Colombia 🇨🇴 En segundos.</p>
+    <p>Nos cansamos de tratar de entender la página de la DIAN en Colombia. 🤦‍♂️<br>Así que decidimos crear un robot
+        que nos ayude en el proceso 🤖 🇨🇴 En segundos.</p>
     <div class="example-prompts">
-        <button>¿Cuando debo pagar impuestos si comercializo software?</button>
-        <button>¿Debo declarar información exógena?</button>
-        <button>¿Porqué esta el código 42 en mi RUT?</button>
+        <button>¿Cuando debo pagar impuestos si comercializo papayas?</button>
+        <button>¿Debo declarar información exógena si vendo bananas?</button>
+        <button>¿Qué demonios es la información exógena?</button>
     </div>
-    <div id="chatbot-arrow"></div>
     <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
     <script src="https://mediafiles.botpress.cloud/0298cbcc-83db-4d30-892a-0ea0933c0f1c/webchat/v2/config.js"></script>
 
     <p class="legal">Construido con 🖤 por <a href="https://github.com/navirobayo" target="_blank">Ivan Robayo</a> <br>©
-        2024 Contabliss.ai es una marca de Binocu
-        S.A.S.<br>Todos los derechos reservados.</p>
+        <br>Todos los derechos reservados.
+    </p>
     <script>
         document.getElementById('signup').addEventListener('click', function () {
             document.getElementById('popup').style.display = 'flex';
