@@ -60,6 +60,16 @@
             background-color: #ddd;
             color: #333;
         }
+
+        #spotlight-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 90% 90%, transparent 100px, rgba(0, 0, 0, 0.6) 150px);
+            pointer-events: none;
+        }
     </style>
 </head>
 
@@ -72,6 +82,7 @@
         <button>¿Debo declarar información exógena si vendo bananas?</button>
         <button>¿Cuáles son mis topes como empresaria/o independiente digital?</button>
     </div>
+    <div id="spotlight-overlay"></div>
     <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
     <script src="https://mediafiles.botpress.cloud/0298cbcc-83db-4d30-892a-0ea0933c0f1c/webchat/v2/config.js"></script>
 
